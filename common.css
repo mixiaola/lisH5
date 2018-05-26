@@ -2,6 +2,28 @@
     margin: 0;
     padding: 0;
 }
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.top {
+    background: url('img/05.jpg');
+    height: 288px;
+    color: #fff;
+}
+.top h2 {
+    margin: 30px 0 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.top p {
+    width: 79%;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 12px;
+}
 .header{
     display: flex;
     padding: 12px 20px;
@@ -10,14 +32,98 @@
 .header img{
     width: 110px;
 }
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
 .header .text{
     color: #fff;
     margin-left: auto;
     font-size: 10px;
 }
+.con {
+    padding: 25px 0;
+    text-align: center;
+}
+.con .title{
+    position: relative;
+    height: 32px;
+    font-size: 18px;
+    width: 214px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e6e6;
+}
+.con .green-line {
+    position: absolute;
+    display: inline-block;
+    height: 3px;
+    width: 15px;
+    background: #31aa3b;
+    bottom: -1px;
+    left: 100px;
+}
+.con .text {
+    color: #999999;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.con-list {
+    margin-top: 25px;
+}
+.con-list .item {
+    width: calc(100% / 2);
+    margin-bottom: 25px;
+    float: left;
+}
+.con-list .item img {
+    width: 55px;
+    margin-bottom: 10px;
+}
+.con-list .item p {
+    width: 75%;
+    margin: 0 auto;
+    color: #666666;
+}
+.con-list .item .tit {
+    color: #0b1115;
+    margin-bottom: 5px;
+}
+.space-list {
+    padding: 30px 20px 0;
+}
+.space-list .item {
+    position: relative;
+    width: calc(100% / 2);
+    margin-bottom: 30px;
+    float: left;
+}
+.space-list .item img{
+    width: 92%;
+}
+.space-list .item div {
+    position: absolute;
+    padding-top: 8px;
+    box-sizing: border-box;
+    z-index: 2;
+    opacity: 0.902;
+    background: #fefefe;
+    width: 138px;
+    height: 50px;
+    bottom: -20px;
+    left: calc(50% - 70px);
+    font-size: 12px;
+}
+.solution img{
+    display: block;
+    margin: 20px auto 0;
+
+}
+.partner-list .item img {
+    width: 65%;
+}
 .footer{
    text-align: center;
-    padding: 10px 0;
+    padding: 13px 0;
     background: #091016;
 }
 .footer img{
