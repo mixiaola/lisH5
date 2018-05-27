@@ -23,6 +23,7 @@
     margin: 0 auto;
     line-height: 1.8;
     font-size: 12px;
+    font-weight: 100;
 }
 .header{
     display: flex;
@@ -83,9 +84,11 @@
     width: 75%;
     margin: 0 auto;
     color: #666666;
+    font-size: 8px;
 }
 .con-list .item .tit {
     color: #0b1115;
+    font-size: 10px;
     margin-bottom: 5px;
 }
 .space-list {
@@ -96,20 +99,20 @@
     width: calc(100% / 2);
     margin-bottom: 30px;
     float: left;
+    margin-top: 20px;
 }
 .space-list .item img{
     width: 92%;
 }
 .space-list .item div {
     position: absolute;
-    padding-top: 8px;
+    padding: 8px 0;
     box-sizing: border-box;
     z-index: 2;
     opacity: 0.902;
     background: #fefefe;
     width: 138px;
-    height: 50px;
-    bottom: -20px;
+    bottom: -35px;
     left: calc(50% - 70px);
     font-size: 12px;
 }
